@@ -1,4 +1,4 @@
-name: Generate a build and push to another branchs
+name: Generate a build and push to another branchss
 
 on:
   push:
