@@ -34,7 +34,7 @@ const Contact = () => {
           ></textarea>
           <button
             type='submit'
-            className='text-center text-[#FFFFFF] inline-block px-8 py-3 w-max text-base text-white bg-paragraph hover:bg-button rounded-md shadow hover:shadow-2xl'
+            className='text-center inline-block px-8 py-3 w-max text-base text-white bg-paragraph hover:bg-nav-highligt rounded-md shadow hover:shadow-2xl'
           >
             Reach out
           </button>

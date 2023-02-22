@@ -3,20 +3,22 @@ module.exports = {
   darkMode: 'class',
   theme: {
     colors: {
-      'background': '#fef6e4',
-      'button': '#f582ae',
-      'headline': '#001858',
-      'paragraph': '#172c66',
-      'button-text': '#001858',
-      'secondary': '#8bd3dd',
-      'main': '#f3d2c1',
-      'card-text': '#fef6e4',
-      'card-headline': '#fffffe',
-      'card-bg': '#001858',
-      'card-tag-bg': '#fef6e4',
-      'card-highlight': '#f582ae',
-      'year-bg': '#f3d2c1'
-
+      'background': '#F2F1ED',
+      'main': '#EDCDBE',
+      'headline': '#4F4F4B',
+      'paragraph': '#4F4F4B',
+      'button-text': '#F2F1ED',
+      'card-bg': '#B8CDD6',
+      'card-tag-bg': '#EDCDBE',
+      'button': '#CCA9BC',
+      'nav-highligt': '#997F8D',
+      'secondary': '#CCA9BC',
+      'year-bg': '#EDCDBE',
+      'card-text': '#4F4F4B',
+      'card-headline': '#4F4F4B',
+      'card-highlight': '#EDCDBE',
+      'white': '#FFFFFF',
+      'button-blue': 'B8CDD6'
 
     },
 

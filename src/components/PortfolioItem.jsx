@@ -1,4 +1,4 @@
-const PortfolioItem = ({ title, imageUrl, stack, link }) => {
+const PortfolioItem = ({ title, imageUrl, stack, link, repo }) => {
   return (
     <a
       href={link}
@@ -15,16 +15,26 @@ const PortfolioItem = ({ title, imageUrl, stack, link }) => {
         <h3 className='text-lg md:text-xl mb-2 md:mb-3 font-semibold text-card-headline'>
           {title}
         </h3>
-        <p className='flex flex-wrap gap-2 flex-row items-center justify-start md:text-sm'>
+        <p className='mb-2 flex flex-wrap gap-2 flex-row items-center justify-start md:text-sm'>
           {stack.map((item) => (
             <span
               key={item}
-              className='inline-block px-2 py-1 font-semibold border-2 border-paragraph-1000 rounded-md text-paragraph hover:bg-button bg-card-tag-bg'
+              className='text-xs md:text-sm inline-block px-2 py-1 font-semibold border-2 border-paragraph-1000 rounded-md text-paragraph hover:bg-button bg-card-tag-bg hover:cursor-default'
             >
               {item}
             </span>
           ))}
         </p>
+
+        {repo && (
+          <a
+            className='text-card-text underline underline-offset-4 decoration-button decoration-4 hover:bg-button'
+            target={'_blank'}
+            href={repo}
+          >
+            Repo
+          </a>
+        )}
       </div>
     </a>
   );
