@@ -1,6 +1,9 @@
 const Contact = () => {
   return (
-    <div className='bg-main p-10 flex justify-center items-center flex-col mb-10 mx-auto'>
+    <div
+      id='contact'
+      className='bg-main	p-10 flex justify-center items-center flex-col mb-10 mx-auto'
+    >
       <div className='w-2/3 md:w-full flex justify-center items-center'>
         <form
           action='https://getform.io/f/ae725966-87aa-4bba-b488-b3a243e51f81'

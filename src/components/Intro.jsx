@@ -12,25 +12,6 @@ const Intro = () => {
         analysis experience.
         <br />
         <br />
-        <div className='flex justify-center items-center gap-2'>
-          <a
-            href='https://github.com/RonnenPodolsky/'
-            target='_blank'
-            rel='noreferer noopener'
-            className=' underline underline-offset-4 decoration-2 decoration-button p-4 hover:border-button hover:bg-button'
-          >
-            GitHub
-          </a>
-          <a
-            href='https://www.linkedin.com/in/ronnen-podolsky-806905172/'
-            target='_blank'
-            rel='noreferer noopener'
-            className=' underline underline-offset-4 decoration-2 decoration-button p-4 hover:border-button hover:bg-button'
-          >
-            Linkedin
-          </a>
-        </div>
-        <br />
         Passionate about technology and software development, my aim is to build
         products while bringing a strong business and product sense to the
         table.

@@ -4,7 +4,7 @@ const PortfolioItem = ({ title, imageUrl, stack, link }) => {
       href={link}
       target='_blank'
       rel='noopener noreferrer'
-      className='rounded-md overflow-hidden bg-card-bg'
+      className='border-4 border-paragraph rounded-md overflow-hidden bg-card-bg'
     >
       <img
         src={imageUrl}
