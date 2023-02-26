@@ -9,15 +9,15 @@ export default [
     {
         title: 'Document search app (freelance)',
         imgUrl: '/hani.png',
-        stack: ['React', 'Redux', 'CSS'],
-        link: '',
+        stack: ['React', 'Redux', 'CSS', 'Apache Solr', 'Nginx', 'Adobe XD'],
+        link: null,
         repo: null
     },
     {
         title: 'Portfolio',
         imgUrl: '/portfolio.png',
         stack: ['React', 'Tailwind', 'Vite'],
-        link: 'https://ronnenpodolsky.com',
+        link: null,
         repo: 'https://github.com/RonnenPodolsky/minimal_portfolio'
     }
 ]

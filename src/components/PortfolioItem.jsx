@@ -1,16 +1,16 @@
 const PortfolioItem = ({ title, imageUrl, stack, link, repo }) => {
   return (
-    <a
-      href={link}
-      target='_blank'
-      rel='noopener noreferrer'
-      className='border-4 border-paragraph rounded-md overflow-hidden bg-card-bg'
-    >
-      <img
-        src={imageUrl}
-        alt='portfolio'
-        className='w-full h-36 object-cover cursor-pointer'
-      />
+    <div className='border-4 border-paragraph rounded-md overflow-hidden bg-card-bg'>
+      <a href={link} target='_blank' rel='noopener noreferrer'>
+        <img
+          src={imageUrl}
+          alt='portfolio'
+          className={`w-full h-36 object-cover ${
+            link ? 'cursor-pointer' : 'cursor-default'
+          }`}
+        />
+      </a>
+
       <div className='w-full p-4'>
         <h3 className='text-lg md:text-xl mb-2 md:mb-3 font-semibold text-card-headline'>
           {title}
@@ -25,18 +25,29 @@ const PortfolioItem = ({ title, imageUrl, stack, link, repo }) => {
             </span>
           ))}
         </p>
+        <div className='flex gap-3'>
+          {repo && (
+            <a
+              className='text-card-text underline underline-offset-4 decoration-button decoration-4 hover:bg-button'
+              target={'_blank'}
+              href={repo}
+            >
+              Source code
+            </a>
+          )}
 
-        {repo && (
-          <a
-            className='text-card-text underline underline-offset-4 decoration-button decoration-4 hover:bg-button'
-            target={'_blank'}
-            href={repo}
-          >
-            Repo
-          </a>
-        )}
+          {link && (
+            <a
+              className='text-card-text underline underline-offset-4 decoration-button decoration-4 hover:bg-button'
+              target={'_blank'}
+              href={repo}
+            >
+              Live Demo
+            </a>
+          )}
+        </div>
       </div>
-    </a>
+    </div>
   );
 };
 
