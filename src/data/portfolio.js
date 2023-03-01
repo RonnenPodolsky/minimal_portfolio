@@ -7,7 +7,7 @@ export default [
         repo: 'https://github.com/nikDRlas/Masterschool-Social-Issue-Project'
     },
     {
-        title: 'Document search app (freelance)',
+        title: 'Document search app (proffesionally)',
         imgUrl: '/hani.png',
         stack: ['React', 'Redux', 'CSS', 'Apache Solr', 'Nginx', 'Adobe XD'],
         link: null,

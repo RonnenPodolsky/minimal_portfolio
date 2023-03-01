@@ -12,7 +12,7 @@ let finish = new Date()
 export default [
     {
         year: 'today',
-        title: 'Frontend Engineer @ Byon',
+        title: 'Software Engineer @ Byon',
         duration: `${differenceInMonths(finish, start)} Months`,
         details: "Employed as the only front-end engineer on a freelance project, working with a backend engineer and a PM. Using React and styling with CSS from scratch (no component library)."
 
