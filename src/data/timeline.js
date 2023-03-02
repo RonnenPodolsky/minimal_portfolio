@@ -5,7 +5,7 @@ function differenceInMonths(date1, date2) {
     return monthDiff + yearDiff * 12;
 }
 
-let start = new Date("December 25, 2022");
+let start = new Date("October 25, 2022");
 let finish = new Date()
 
 
