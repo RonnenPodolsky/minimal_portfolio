@@ -8,7 +8,6 @@ function differenceInMonths(date1, date2) {
 let start = new Date("October 25, 2022");
 let finish = new Date()
 
-
 export default [
     {
         year: 'today',

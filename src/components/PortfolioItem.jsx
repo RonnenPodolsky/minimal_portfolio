@@ -40,7 +40,7 @@ const PortfolioItem = ({ title, imageUrl, stack, link, repo }) => {
             <a
               className='text-card-text underline underline-offset-4 decoration-button decoration-4 hover:bg-button'
               target={'_blank'}
-              href={repo}
+              href={link}
             >
               Live Demo
             </a>
